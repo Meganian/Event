@@ -1,0 +1,88 @@
+{
+	"CA": [
+		{
+			"time": "Bondi Beach",
+			"title": " is a popular beach and the name of the surrounding suburb in Sydney, New South Wales, Australia. Bondi Beach is located 7 km (4 mi) east of the Sydney central business district, in the local government area of Waverley Council, in the Eastern Suburbs. Bondi, North Bondi and Bondi Junction are neighbouring suburbs. Bondi Beach is one of the most visited tourist sites in Australia."
+		},
+		{
+			"time": "Manly Beach",
+			"title": " is a beach situated among the Northern Beaches of Sydney, Australia in Manly, New South Wales. From north to south, the three main sections are Queenscliff, North Steyne, and South Steyne. The beach was named by Capt. Arthur Phillip for the indigenous people living there. Philip wrote that confidence and manly behaviour made me give the name of Manly Cove to this place. "
+		},
+		{
+			"time": "Cronulla Beach",
+			"title": " in the Sutherland Shire on Sydney's southern coast, is the only Sydney beach that can be reached by train, meaning you can visit without the headache of finding a carpark. "
+		},
+		{
+			"latitude":"-33.9",
+			"longitude":"151.2"
+
+		},
+		{
+		"MarkerPosition": [
+		        ["Bondi Beach", -33.890542, 151.274856, 4],
+		        ["Coogee Beach", -33.923036, 151.259052, 5],
+		        ["Cronulla Beach", -34.028249, 151.157507, 3],
+		        ["Manly Beach", -33.80010128657071, 151.28747820854187, 2],
+		        ["Maroubra Beach", -33.950198, 151.259302, 1]
+    		]
+      	}
+    
+	],
+
+	"TX": [
+		{
+			"time": "Aslings Beach",
+			"title": "is the main beach and surf beach for Eden. The beach is 2.3 km long, faces east-southeast out the bay entrance and receives southerly waves averaging 1-1.5 m, with some protection from northeast and east waves."
+		},
+		{
+			"time": "Cocora Beach",
+			"title": " The beach is crossed by a 140 m long jetty and largely backed by a fish processing plant, with steep vegetated bluffs along the boundaries. The beach is usually quiet however is little used for recreation."
+		},
+		{
+			"time": "Quarantine Bay",
+			"title": "The bay was named by George Bass, for its shape of two bights.[3] The northern bight is called Calle Calle Bay;[4] while the southern bight is known as Nullica Bay."
+		},
+		{
+			"latitude":"-37.05633460000001",
+			"longitude":"149.91215009999996"
+		},
+				{
+		"MarkerPosition": [
+		        ["Aslings Beach", -37.05633460000001, 149.91215009999996, 4],
+		        ["Cocora Beach", -37.07153820000001, 149.89768830000003, 5],
+		        ["Nullica River Mouth", -37.093786, 149.87409049999997, 3],
+		        ["Quarantine Bay & Rixon’s Beach", -37.0839789, 149.87276560000007, 2],
+		        ["Boydtown Beach", -37.1035383, 149.88409049999997, 1]
+    	]
+      }
+
+	],
+	
+	"NY": [
+		{
+			"time": "Hazards Beach",
+			"title": "Located in Freycinet National Park (our favourite place in Tassie), we fell in love with Hazards Beach. Base yourself in Coles Bay and combine it with the walk to Wine Glass Bay. Or, do it in style and take a sea plane from Hobart."
+		},
+		{
+			"time": "Bay of Fires",
+			"title": "The Bay of Fires is situated on the north-east coast of Tasmania and is a region of white beaches, blue water and these incredible rock formations (orange-hued granite)."
+		},
+		{
+			"time": "Bicheno Beach",
+			"title": "I wish we spent more time in Bicheno instead of just a lunch break on one of our driving days. Located on the east coast of Tasmania (north-east of Hobart), this beach and small town was very inviting and hard to leave."
+		},
+		{
+			"latitude":"-41.4545196",
+			"longitude":"145.9706648"
+		},
+				{
+		"MarkerPosition": [
+		        ["Hazards Beach", -42.1709675, 148.27481579999994, 4],
+		        ["Bay of Fires", -41.14, 148.29999999999995, 5],
+		        ["Bicheno Beach", -42.9794182, 147.5374534, 3],
+		        ["Manly Beach", -41.2491264, 148.29289570000003, 2],
+		        ["Maroubra Beach", -41.9918865, 148.25127739999994, 1]
+    	]
+      }
+	]
+}

@@ -1,0 +1,254 @@
+/*===================================================
+1. typography
+2. nav
+3. more-info
+4. map
+5. contact
+=====================================================*/
+$bg: #24303a;
+$panel-bg: #1e2730;
+$green: #48c15e;
+$txt: #4a667a;
+
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
+@font-face{
+  font-family:Lato;
+  src:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/176026/ProximaNova-Regular.otf);
+  font-weight:300;
+}
+
+/*===================TYPOGRAPHY=======================*/
+html {
+  font-size: 62.5%;
+}
+body {
+  background: $bg;
+  font-size: 18px;
+  font-family:Lato;
+}
+
+a {
+  color: $txt;
+  text-decoration: none;
+  -webkit-transition: 300ms;
+     -moz-transition: 300ms;
+       -o-transition: 300ms;
+          transition: 300ms;
+}
+h1 {
+  color: $green;
+}
+h3 {
+  margin: 0;
+  color: white;
+  font-weight: inherit;
+}
+header {
+  padding-bottom: 40px;
+}
+p {
+  font-size: 1.5rem;
+  margin: 0 0 20px 0;
+  .active {
+    text-shadow: 0 0 6px #6fad0f;
+  }
+}
+span, p {
+  color: $green;
+}
+ul {
+  list-style: none;
+  margin: 0 20px 0 0;
+  padding: 0;
+  text-align: justify;
+}
+#wrapper {
+  padding: 40px 80px;
+  box-sizing: border-box;
+}
+#container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+/*===================NAV=======================*/
+nav {
+	flex-shrink: 0;
+  flex-basis: 25%;
+  a {
+    padding: 0 10px;
+  }
+}
+.event-photo {
+	text-align: center;
+	a {
+		img {
+			width: 150px;
+    	height: 150px;
+    	border-radius: 50%;	
+		}
+	}
+}
+/*==================MORE-INFO=======================*/
+.more-info {
+	flex-shrink: 0;
+  flex-basis: 25%;
+  .time {
+    padding-right: 20px;
+  }
+  ul li {
+    padding-bottom: 20px;
+  }
+}
+
+/*===================MAP=======================*/
+.wrap {
+	flex-shrink: 0;
+  flex-basis: 50%;
+  align-items: stretch;
+}
+.map {
+	width: 640px; 
+	flex-shrink: 0;
+  flex-basis: 50%;
+  align-items: stretch;
+}
+/*==================CONTACT=======================*/
+.contact_form {  
+  width: 35%;
+  background-size: cover;
+  display: inline-block;
+  position: absolute;
+  top: 210px;
+  right: 120px;
+  border-radius: 5px;
+    -webkit-box-shadow: -1px 6px 27px 0px rgba(gray,1);
+       -moz-box-shadow: -1px 6px 27px 0 rgba(gray,1);
+            box-shadow: -1px 6px 27px 0px rgba(gray,1);
+  .form-container {
+    position: relative;
+    width: 80%;
+    margin: auto;
+  }
+  .form-header {
+    text-align: center;
+    font-size: 2.2rem;
+    padding-top: 20px;
+    color: white;
+  }
+  .form-group {
+    position: relative;
+  }
+  i {
+    position: relative;
+    left: 13px;
+    top: 28px;
+    height: 16px;
+    padding-right: 10px;
+    border-right: 1px solid gold;
+    color: white;
+    z-index: 2;
+    transition: all 0.2s ease;
+  }
+  .form_control {
+    position: relative;
+    background: rgba(255,255,255,.1);
+    box-sizing: border-box;
+    color:gold;
+    height: 30px;
+    opacity: 1;
+    border-radius: 0px;
+    width: 100%;
+    padding: 17px 0 17px 55px;
+    margin-bottom: 5px;
+    z-index: 1;
+    border: 1px solid gold;
+    overflow-y: hidden;
+    border-radius: 5px;
+    font: 13.3333px Arial;
+  }
+  input:not([type="checkbox"]):focus {
+    outline: 0 none;
+    box-shadow: inset 0 1px 3px rgba(255,255,255,0.1), 0 0 8px rgba(255,255,255, 0.6);
+  }
+  textarea:focus {
+    outline: 0 none;
+    box-shadow: inset 0 1px 3px rgba(255,255,255,0.1), 0 0 8px rgba(255,255,255, 0.6);
+  }
+  ::-webkit-input-placeholder {
+    color:#d6aaaa;
+    font-weight: bold;
+  }
+  .form-group:hover i {
+    color: gray;
+  }
+  .btn {
+    padding: 10px 0;
+    margin: 23px 0;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    background-image: linear-gradient(to top, #f8b500 0%, #fccd4d 50%,#fceabb 100%);
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.3);
+    transition: all 0.2s;
+    i {
+      position: static;
+      padding-left: 15px;
+    }
+    &:hover i {
+      color: #8e9498;
+    }
+    &:hover {
+      background-image: linear-gradient(to top, #f9c411 0%, #fdde5e 50%,#fdfbcc 100%);
+      color: #8e9498;
+    }
+  }
+  label {
+    position:absolute;
+    transform:translateY(6px);
+    left: 51px;
+    top: 24px;
+    color:rgba(#ffffff,.5);
+    transition:all 0.25s ease;
+    -webkit-backface-visibility: hidden;
+    pointer-events: none;
+    font-size: 1.4rem;
+    &:focus{
+    transform:translateY(35px);
+    left: 40px;
+    font-size: 1.5rem;
+    }
+  }
+  
+  label.active {
+    transform:translateY(35px);
+    left: 40px;
+    font-size: 1.5rem;
+  }
+  label.highlight {
+    color: #ffffff;
+  }
+  input[type=text].errorField {
+    color: #DB083E;
+    border-color: #DB083E;
+    padding-right: 40px;
+  }
+}
+
+#yay, #ooh {display: none;}
+
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+.blue {
+  color: blue;
+}
